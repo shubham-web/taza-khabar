@@ -1,0 +1,32 @@
+.categorized_posts {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 1rem;
+}
+.categorized_posts .newsArticleShort {
+	background: #f6f6f6;
+	border-radius: 1rem;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	grid-template-rows: 0.7fr 0.3fr;
+}
+.categorized_posts .newsArticleShort .articleThumb {
+	width: 100%;
+	aspect-ratio: 16 / 9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.categorized_posts .newsArticleShort .articleThumb img {
+	border-radius: 1rem;
+	aspect-ratio: 16 / 9;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.categorized_posts .newsArticleShort .articleTitle {
+	padding: 0 1rem;
+	text-align: center;
+}
